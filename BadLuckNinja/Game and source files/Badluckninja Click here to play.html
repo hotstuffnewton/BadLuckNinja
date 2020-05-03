@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bad Luck Ninja</title> <!-- web page name -->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Germania+One' rel='stylesheet' type='text/css'>  <!-- getting fonts from the web -->
+</head>
+<body>
+<div class="container">
+  <div class="content">
+	<header><h1><center><font size="22">Bad Luck Ninja</font></center></h1> <!-- first header -->
+      <h2>About</h2>  <!-- second header less important always below h1 -->
+      <p>Geoff is the world's worst ninja.This is not because he lacks the ability to sneak around stealing children's sweets but because he's so unlucky. Guide Geoff through the level safely so that he may assassinate his planned and paid for target, be mindful of your surroundings Geoff's bad luck may become your down fall.</p>
+	</header>
+    <h2>Game Play</h2>
+      <div class="fltlft">  <!-- inports images and puts them on the page left to right -->
+        <p><img src="webpagecontrols.png" width="143" height="98" alt="AWDkeys"><img src="flag.gif" width="66" height="132" alt="spawnflag"></p>
+      </div>
+    <p class="fltlft">-A/D/W -  run left or right and jump</br>
+	-Dying will result in a respawn from the last check point</br>      <!-- more game info -->
+    -Gain points for completing the level quickly</br>
+    -During boss fights you must dodge for the set time to win.</p>
+	
+		<canvas id="canvas" width="800" height ="600">  <!-- game screen -->
+        Your browser does not support Canvas.
+        </canvas>
+	
+</div><!-- end of content -->
+</div><!-- end of container -->
+    <footer>&copy;Edward N Newton 2014/2015</footer> 
+    
+	<script src="jquery-1.7.2.min.js"></script>  <!-- both of these are needed or the game wont work at all -->
+    <script src="badluckninja.js"></script>
+	
+</body>
+</html>
+
